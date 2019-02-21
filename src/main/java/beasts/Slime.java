@@ -2,7 +2,13 @@ package beasts;
 
 public class Slime extends Beast {
 
-    public Slime(){
-        this.defence = 2;
+    public Slime(int defence, int attack, int health) {
+        super(defence, attack, health);
     }
+
+    @Override
+    public int attack() {
+        return 0;
+    }
+
 }

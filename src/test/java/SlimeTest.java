@@ -8,7 +8,7 @@ public class SlimeTest {
     Slime slime;
     @Before
     public void before(){
-        slime = new Slime();
+        slime = new Slime(2,2, 100);
     }
 
     @Test

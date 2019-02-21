@@ -9,7 +9,7 @@ public class DragonTest {
     Dragon dragon;
     @Before
     public void before(){
-        dragon = new Dragon();
+        dragon = new Dragon(3,3,100);
     }
 
     @Test

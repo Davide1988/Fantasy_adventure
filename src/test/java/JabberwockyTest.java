@@ -8,7 +8,7 @@ public class JabberwockyTest {
     Jabberwocky jabberwocky;
     @Before
     public void before(){
-        jabberwocky = new Jabberwocky();
+        jabberwocky = new Jabberwocky(4,4,100);
     }
 
     @Test
