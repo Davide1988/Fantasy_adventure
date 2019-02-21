@@ -13,10 +13,12 @@ public class Dwarve extends Player {
     }
 
     @Override
-    public int attach() {
+    public int attack() {
+        if (health <= 10) {
+            return weapon.getDamage() * 2;
+        }
         return weapon.getDamage();
     }
-
 
 
 }

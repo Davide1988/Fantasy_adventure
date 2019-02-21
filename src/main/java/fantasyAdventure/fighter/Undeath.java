@@ -13,11 +13,15 @@ public class Undeath extends Player {
     }
 
 
-
     @Override
-    public int attach() {
-        return 0;
+    public int attack() {
+        if (health > 45 && this.weapon == Weapon.BONECLUB) {
+            return this.weapon.getDamage() + 1;
+        }
+        return this.weapon.getDamage();
     }
+
+
 
 
 }

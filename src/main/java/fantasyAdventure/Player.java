@@ -30,11 +30,14 @@ public abstract class Player {
 
     public void takeDamage(int damage){
         this.health -= damage;
+        if (this.health <= 0 ){
+            this.isDeath = true;
+        }
     }
 
     public void gainHealth(int recover){
         this.health += recover;
     }
 
-    public abstract int attach();
+    public abstract int attack();
 }

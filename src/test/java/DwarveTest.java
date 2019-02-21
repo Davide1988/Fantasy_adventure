@@ -41,7 +41,14 @@ public class DwarveTest {
 
     @Test
     public void canAttachWithHisWeapon(){
-        assertEquals(3, dwarve.attach());
+        assertEquals(3, dwarve.attack());
+    }
+
+    @Test
+    public void canAttachWithHisWeaponTwiceWhenLowHeath(){
+        dwarve = new Dwarve(Weapon.DAGGER);
+        dwarve.takeDamage(77);
+        assertEquals(6, dwarve.attack());
     }
 
 

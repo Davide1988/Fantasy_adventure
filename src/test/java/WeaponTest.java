@@ -13,6 +13,6 @@ public class WeaponTest {
     }
     @Test
     public void canGetDamage(){
-        assertEquals(5, Weapon.GREATSWORD.getDamage());
+        assertEquals(5, Weapon.GREATSWORDOFKNIGHT.getDamage());
     }
 }

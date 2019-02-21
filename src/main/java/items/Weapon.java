@@ -3,7 +3,7 @@ package items;
 public enum Weapon {
     BASTARDSWORD(4),
     FLAIL(4),
-    GREATSWORD(5),
+    GREATSWORDOFKNIGHT(5),
     MORNINGSTAR(4),
     BONECLUB(2),
     WOODENSTICK(1),
