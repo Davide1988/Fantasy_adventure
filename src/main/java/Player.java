@@ -11,7 +11,6 @@ public class Player {
         this.isDeath = isDeath;
     }
 
-
     public int getHealth() {
         return health;
     }
@@ -24,7 +23,7 @@ public class Player {
         return isDeath;
     }
 
-    public void setDeath(boolean statust) {
+    public void setDeath(boolean status) {
         isDeath = status;
     }
 }
