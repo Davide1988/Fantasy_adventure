@@ -3,14 +3,13 @@ package fantasyAdventure;
 public abstract class Player {
 
 
-    private int health;
+    protected int health;
     private boolean isDeath;
 
 
 
-    public Player(int health, boolean isDeath){
-        this.health = health;
-        this.isDeath = isDeath;
+    public Player(){
+        this.isDeath = false;
     }
 
     public int getHealth() {

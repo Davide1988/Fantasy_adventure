@@ -11,7 +11,7 @@ public enum Weapon {
 
     int damage;
 
-    public Weapon(int damage){
+      Weapon(int damage){
         this.damage = damage;
     }
 

@@ -3,19 +3,20 @@ package fantasyAdventure.fighter;
 import fantasyAdventure.Player;
 import items.Weapon;
 
-public class Knights extends Player {
+public class Dwarve extends Player {
 
     private Weapon weapon;
 
-    public Knights(Weapon weapon) {
-       this.setHealth(120);
-       this.weapon = weapon;
-
-
+    public Dwarve(Weapon weapon) {
+        this.setHealth(80);
+        this.weapon = weapon;
     }
 
     @Override
     public int attach() {
-        return 0;
+        return weapon.getDamage();
     }
+
+
+
 }
