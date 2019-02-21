@@ -1,5 +1,5 @@
-import fantasyAdventure.Player;
-import fantasyAdventure.fighter.Dwarve;
+import characters.Player;
+import characters.fighter.Dwarve;
 import items.Weapon;
 import org.junit.Before;
 import org.junit.Test;

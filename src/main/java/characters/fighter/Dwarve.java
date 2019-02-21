@@ -1,6 +1,6 @@
-package fantasyAdventure.fighter;
+package characters.fighter;
 
-import fantasyAdventure.Player;
+import characters.Player;
 import items.Weapon;
 
 public class Dwarve extends Player {
