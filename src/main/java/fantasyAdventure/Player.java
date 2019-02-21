@@ -1,4 +1,6 @@
-public class Player {
+package fantasyAdventure;
+
+public abstract class Player {
 
 
     private int health;
@@ -34,4 +36,6 @@ public class Player {
     public void gainHealth(int recover){
         this.health += recover;
     }
+
+    public abstract int attach();
 }
