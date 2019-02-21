@@ -23,6 +23,17 @@ public class PlayerTest {
         assertEquals(false, player.isDeath());
     }
 
+    @Test
+    public void canTakeDamage(){
+        player.takeDamage(3);
+        assertEquals(17, player.getHealth());
+    }
+
+    @Test
+    public void canGainHealth(){
+        player.gainHealth(4);
+        assertEquals(24, player.getHealth());
+    }
 
 
 }
