@@ -1,7 +1,8 @@
 package room;
 
 import beasts.Beast;
-import fantasyAdventure.Player;
+import characters.Player;
+
 
 public class Room {
     Player player;

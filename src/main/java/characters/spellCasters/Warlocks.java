@@ -4,25 +4,17 @@ import beasts.Beast;
 import characters.Player;
 import items.Spell;
 
-public class Wizard extends Player {
+public class Warlocks extends Player {
+
 
     private Spell spell;
     private Beast beast;
 
-
-
-    public Wizard(Spell spell, Beast beast) {
+    public Warlocks(Spell spell, Beast beast) {
         this.setHealth(40);
         this.spell = spell;
         this.beast = beast;
-
     }
-
-    @Override
-    public int attack() {
-        return spell.getDamage();
-    }
-
 
     @Override
     public void takeDamage(int damage) {
@@ -34,4 +26,8 @@ public class Wizard extends Player {
 
     }
 
+    @Override
+    public int attack() {
+        return this.spell.getDamage();
+    }
 }

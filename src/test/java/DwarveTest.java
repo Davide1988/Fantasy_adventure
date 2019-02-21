@@ -51,6 +51,14 @@ public class DwarveTest {
         assertEquals(6, dwarve.attack());
     }
 
+    @Test
+    public void shouldDie(){
+        assertEquals(false, dwarve.isDeath());
+        dwarve.takeDamage(81);
+        assertEquals(true, dwarve.isDeath());
+
+    }
+
 
 
 
