@@ -1,14 +1,15 @@
-public class Player {
+package fantasyAdventure;
+
+public abstract class Player {
 
 
-    private int health;
+    protected int health;
     private boolean isDeath;
 
 
 
-    public Player(int health, boolean isDeath){
-        this.health = health;
-        this.isDeath = isDeath;
+    public Player(){
+        this.isDeath = false;
     }
 
     public int getHealth() {
@@ -34,4 +35,6 @@ public class Player {
     public void gainHealth(int recover){
         this.health += recover;
     }
+
+    public abstract int attach();
 }
