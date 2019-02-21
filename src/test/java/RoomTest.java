@@ -47,4 +47,11 @@ public class RoomTest {
         room.playerTurn();
         assertEquals(92, room.getBeast().getHealth());
     }
+
+    @Test
+    public void beastCanTakeTurn(){
+        room.beastTurn();
+        assertEquals(77, room.getPlayer().getHealth());
+    }
+
 }

@@ -29,6 +29,10 @@ public class Room {
     public void playerTurn(){
         this.beast.takeDamage(this.player.attack());
     }
+
+    public void beastTurn(){
+        this.player.takeDamage(this.beast.attack());
+    }
 }
 
 
