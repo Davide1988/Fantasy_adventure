@@ -1,6 +1,5 @@
-import fantasyAdventure.Player;
-import fantasyAdventure.fighter.Knight;
-import fantasyAdventure.fighter.Undeath;
+import characters.Player;
+import characters.fighter.Undeath;
 import items.Weapon;
 import org.junit.Before;
 import org.junit.Test;
