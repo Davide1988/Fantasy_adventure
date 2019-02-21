@@ -26,4 +26,12 @@ public class Player {
     public void setDeath(boolean status) {
         isDeath = status;
     }
+
+    public void takeDamage(int damage){
+        this.health -= damage;
+    }
+
+    public void gainHealth(int recover){
+        this.health += recover;
+    }
 }
