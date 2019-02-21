@@ -1,3 +1,4 @@
+import fantasyAdventure.Player;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,6 +8,7 @@ public class PlayerTest {
 
 
     private Player player;
+    
 
     @Before
     public void before(){
